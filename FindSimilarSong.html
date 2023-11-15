@@ -10,40 +10,43 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
+                </li>
+                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Find Song
+                    Find Song
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="FindMeASong.html">Find Me a Song</a></li>
-                  <li><a class="dropdown-item" href="FindSimilarSong.html">Similar Song</a></li>
+                    <li><a class="dropdown-item" href="FindMeASong.html">Find Me a Song</a></li>
+                    <li><a class="dropdown-item" href="FindSimilarSong.html">Similar Song</a></li>
                 </ul>
-              </li>
-              <li class="nav-item dropdown">
+                </li>
+                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Rate
+                    Rate
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="RateSong.html">Rate Songs</a></li>
-                  <li><a class="dropdown-item" href="RateAlbum.html">Rate Albums</a></li>
+                    <li><a class="dropdown-item" href="RateSong.html">Rate Songs</a></li>
+                    <li><a class="dropdown-item" href="RateAlbum.html">Rate Albums</a></li>
                 </ul>
-              </li>
+                </li>
             </ul>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <h1>Swiftly</h1>
-      <h2>Trending Songs</h2>
+    
+    <form id="FindSongInput">
+        <input type="text" placeholder="Enter Song Title" required>
+        <button type="submit">Submit</button>
+    </form>
 
 
     <script src="./assets/js/main.js"></script>
