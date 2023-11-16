@@ -1,2 +1,23 @@
-
 /* css */
+
+.homePage {
+    height: 100vh;
+    background-image: linear-gradient(#6C698D, #F4F3EE);
+    color: #0C0A3E;
+}
+
+/* Navbar Coloring */
+.navbar-custom {
+    background-color: #0C0A3E !important;
+    
+}
+.text-primary {
+    background: -webkit-linear-gradient(#F4F3EE , #6C698D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dropdown-menu {
+    background-color: #0C0A3E !important;
+}
+
+
