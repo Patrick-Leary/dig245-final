@@ -1,9 +1,9 @@
 /* css */
 
 body {
-    height: 100vh;
-    background-image: linear-gradient(#6C698D, #F4F3EE);
-    color: #0C0A3E;
+    background-image: url('./Eo7p111W4AAyDsf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Navbar Coloring */
@@ -22,6 +22,40 @@ body {
 
 .homePage h1, h3{
     text-align: center;
+    font-size: 50px;
 }
 
+.homePage h2 {
+    color: #0C0A3E;
+    font-size: 80px;
+}
+
+.card-button {
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(135, 132, 166, 0.65);
+    border-radius: 40px;
+}
+
+.card-title, .card-text {
+    color: #0C0A3E;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #0E9594, #0E3B43);
+    color:#F4F3EE;
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    border-radius: 50px; /* Use a large value for a pill shape */
+}
+
+.btn:hover {
+    color: #0C0A3E;
+}
+
+.row-whith-wide-cards .card {
+    width: 100%;
+}
 
