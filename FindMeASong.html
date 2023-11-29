@@ -42,53 +42,131 @@
     </div>
   </nav>
 
-  <h2>What Are You Looking For?</h2>
-  <form id="FindMeASongForm">
-      <label for="duration">Select Duration</label>
-      <select>
-          <option value="any">Any</option>
-          <option value="long">Long</option>
-          <option value="medium">Medium</option> 
-          <option value="short">Short</option>   
-      </select>
-      <br>
-      <label for="popularity">Select Popularity</label>
-      <select>
-          <option value="any">Any</option>
-          <option value="poular">Popular</option>
-          <option value="recognizable">Recognizable</option> 
-          <option value="underground">Underground</option>   
-      </select>
-      <br>
-      <label for="era">Select Era</label>
-      <select>
-          <option value="any">Any</option>
-          <option value="midnights">Midnights</option>
-          <option value="evermore">Evermore</option>
-          <option value="folklore">Folklore</option>
-          <option value="lover">Lover</option>
-          <option value="reputation">Reputation</option>
-          <option value="1989">1989</option>
-          <option value="red">Red</option>
-          <option value="speakNow">Speak Now</option>
-          <option value="fearless">fearless</option>
-          <option value="debut">Debut</option>
-      </select>
-      <br>
-      <label for="tempo">Select Tempo</label>
-      <select>
-        <option value="any">Any</option>
-        <option value="fast">Fast</option>
-        <option value="medium">Medium</option>
-        <option value="slow">Slow</option>
-      </select>
-  </form>
-  <br>
-  <hr>
-  <br>
-  <h4>Song Title</h4>
-  <img src="./assets/img/RedAlbumCover.jpg" class="img-fluid" width="25%" height="25%">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h1>
+          What Are You Looking For?
+        </h1>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Only Taylor's Version
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <input class="form-check-input" type="checkbox" value="" id="taylors-version">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Era
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="any">Any</option>
+              <option value="debut">Debut</option>
+              <option value="fearless">Fearless</option>
+              <option value="speak-now">Speak Now</option>
+              <option value="red">Red</option>
+              <option value="1989">1989</option>
+              <option value="reputation">Reputation</option>
+              <option value="lover">Lover</option>
+              <option value="folklore">Folklore</option>
+              <option value="evermore">Evermore</option>
+              <option value="midnights">Midnights</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Duration
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="any">Any</option>
+              <option value="short">Short</option>
+              <option value="medium">Medium</option>
+              <option value="long">Long</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Tempo
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="any">Any</option>
+              <option value="low">Low</option>
+              <option value="regular">Regular</option>
+              <option value="fast">Fast</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Energy
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="any">Any</option>
+              <option value="mellow">Mellow</option>
+              <option value="moderate">Moderate</option>
+              <option value="upbeat">Upbeat</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5>
+              Popularity
+            </h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="any">Any</option>
+              <option value="underground">Mellow</option>
+              <option value="recognizable">Recognizable</option>
+              <option value="hot100">Hot 100</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <a href="#" class="btn submit-btn">Submit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 offset-lg-1">
+        <h1>
+          Song Title
+        </h1>
+        <br>
+        <img src="./assets/img/RedAlbumCover.jpg" class="img-fluid" alt="album cover">
+      </div>
+    </div>
+  </div>
 
 
 

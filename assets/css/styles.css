@@ -1,18 +1,49 @@
 /* css */
 
-body {
-    background-image: url('./Eo7p111W4AAyDsf.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+h1, h2, h3, h4, h5, h6, p {
+    color: #0C0A3E;
 }
+
+.navbar-home {
+    position: fixed;
+}
+
+body.homePage {
+    background:url('./FullImg.jpg') center/cover no-repeat,
+    linear-gradient(0deg, rgba(108,105,141,1) 0%, rgba(244,243,238,1) 100%);
+    /* linear-gradient(to bottom, rgba(244, 243, 238, 0), #6C698D); */
+    height: 100vh;
+    /* margin: 0; */
+    color:#F4F3EE;
+}
+
+body {
+    background-image: linear-gradient(#F4F3EE, #6C698D);
+    height: 100vh;
+    margin: 0;
+}
+
+.or {
+    background: -webkit-linear-gradient(#0E9594, #0E3B43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 /* Navbar Coloring */
 .navbar-custom {
     background-color: #0C0A3E !important;
     
 }
+.trending-text {
+    background: -webkit-linear-gradient(#0E9594, #0E3B43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .text-primary {
-    background: -webkit-linear-gradient(#F4F3EE , #6C698D);
+    background: #F4F3EE;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -37,6 +68,8 @@ body {
 .card {
     background-color: rgba(135, 132, 166, 0.65);
     border-radius: 40px;
+    border-color:#0C0A3E;
+    border-width: 1.5px;
 }
 
 .card-title, .card-text {
@@ -58,4 +91,44 @@ body {
 .row-whith-wide-cards .card {
     width: 100%;
 }
+.carousel-wrapper {
+    display: flex;
+}
 
+.play-song {
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #0E3B43; /* Change to your desired color */
+    border: none; /* Remove default border */
+    color: #fff; /* Change text color to contrast with the background */
+    width: 40px; /* Set the width */
+    height: 40px; /* Set the height */
+    border-radius: 20%; /* Optional: Make it a circle */
+    font-size: 20px; /* Optional: Adjust the font size */
+    line-height: 40px; /* Optional: Center the text vertically */
+    position: absolute; /* Set the position to absolute */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Move it up by half its height */
+}
+
+/* Customize the color of the carousel indicators (tabs at the bottom) */
+.carousel-indicators li {
+    background-color: #0C0A3E; /* Change to your desired color */
+    border: 1px solid #0C0A3E; /* Change to your desired color */
+}
+
+/* Customize the active indicator */
+.carousel-indicators .active {
+    background-color: #0C0A3E; /* Change to your desired active color */
+}
+
+.submit-btn {
+    width: 65%;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #6C698D;
+}
