@@ -43,19 +43,11 @@ body {
     margin: 0;
 }
 
-.or {
-    background: -webkit-linear-gradient(#0E9594, #0E3B43);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-
 .navbar-custom {
     background-color: #0C0A3E !important;
     
 }
-.trending-text {
+.trending-text, .or {
     background: -webkit-linear-gradient(left, #FF6C72, #FFA56C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
