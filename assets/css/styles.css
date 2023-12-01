@@ -9,21 +9,18 @@ html, body {
 
 .img1 {
     background-image: url(./LakeBackground-transformed.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    
 }
 
 .img2 {
     background-image: url(./ForestBackground-transformed.png);
+}
+
+.img1, .img2 {
+    height: 120vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100vh;
     position: relative;
-    background-size: cover;
     width: 100%;
     display: flex;
     align-items: center;
