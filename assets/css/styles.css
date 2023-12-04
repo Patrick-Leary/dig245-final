@@ -44,9 +44,20 @@ body {
 }
 
 .navbar-custom {
-    background-color: #0C0A3E !important;
-    
+    background-color: #0C0A3E !important; 
 }
+.nav-item {
+    font-size: 18px;
+}
+
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
 .trending-text, .or {
     background: -webkit-linear-gradient(left, #FF6C72, #FFA56C);
     -webkit-background-clip: text;
