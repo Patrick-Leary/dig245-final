@@ -41,6 +41,7 @@ body {
     background-image: linear-gradient(#F4F3EE, #6C698D);
     height: 100vh;
     margin: 0;
+    padding-top: 60px;
 }
 
 .navbar-custom {
@@ -99,7 +100,6 @@ body {
 .play-song {
     text-align: center;
 }
-
 
 .submit-btn {
     width: 65%;

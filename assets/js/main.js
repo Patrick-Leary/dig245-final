@@ -67,28 +67,99 @@ if (page === "index.html") {
 
 if (page === "RateSong.html") {
     document.addEventListener("DOMContentLoaded", function () {
+        var songs = ['Better Than Revenge', 'Red', 'All Too Well', 'We Are Never Getting Back Together',
+                     'Love Story', 'Lover', 'Delicate'];
+    
+        var song1NameElement = document.getElementById("song1Name");
+        var song2NameElement = document.getElementById("song2Name");
+    
         var song1 = document.querySelector(".song1");
         var song2 = document.querySelector(".song2");
+    
+        function getRandomSong() {
+            return songs[Math.floor(Math.random() * songs.length)];
+        }
+    
+        function updateSongNames() {
+            var newSong1 = getRandomSong();
+            var newSong2 = getRandomSong();
+    
+            // Prevent duplicates
+            while (newSong2 === newSong1) {
+                newSong2 = getRandomSong();
+            }
+    
+            song1NameElement.textContent = newSong1;
+            song2NameElement.textContent = newSong2;
+        }
+    
 
+        updateSongNames();
         song1.onclick = function () {
-            console.log("clicked song 1");
+            console.log("clicked song 1:", song1NameElement.textContent);
+            updateSongNames();
         };
+    
         song2.onclick = function () {
-            console.log("clicked song 2");
+            console.log("clicked song 2:", song2NameElement.textContent);
+            updateSongNames();
         };
-    });
+    });    
 }
+
+var albums = {
+    'Taylor Swift': 0,
+    'Fearless': 0,
+    'Speak Now': 0,
+    'Red': 0,
+    '1989': 0,
+    'Reputation': 0,
+    'Lover': 0,
+    'Folklore': 0,
+    'Evermore': 0,
+    'Midnights': 0
+};
 
 if (page === "RateAlbum.html") {
     document.addEventListener("DOMContentLoaded", function () {
-        var song1 = document.querySelector(".album1");
-        var song2 = document.querySelector(".album2");
 
-        song1.onclick = function () {
-            console.log("clicked album 1");
+        var album1NameElement = document.getElementById("album1Name");
+        var album2NameElement = document.getElementById("album2Name");
+
+        var album1 = document.querySelector(".album1");
+        var album2 = document.querySelector(".album2");
+
+        function getRandomAlbum() {
+            var albumKeys = Object.keys(albums);
+            return albumKeys[Math.floor(Math.random() * albumKeys.length)];
+        }
+
+        function updateAlbumNames() {
+            var newAlbum1 = getRandomAlbum();
+            var newAlbum2 = getRandomAlbum();
+
+            // Ensure that newAlbum2 is different from newAlbum1
+            while (newAlbum2 === newAlbum1) {
+                newAlbum2 = getRandomAlbum();
+            }
+
+            album1NameElement.textContent = newAlbum1;
+            album2NameElement.textContent = newAlbum2;
+            console.log(albums);
+        }
+
+        // Initial setup
+        updateAlbumNames();
+
+        album1.onclick = function () {
+            albums[album1NameElement.textContent] += 1;
+            updateAlbumNames(); // Change albums after user clicks
         };
-        song2.onclick = function () {
-            console.log("clicked album 2");
+
+        album2.onclick = function () {
+            albums[album2NameElement.textContent] += 1;
+            updateAlbumNames(); // Change albums after user clicks
         };
     });
 }
+
