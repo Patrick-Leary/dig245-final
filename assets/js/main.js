@@ -67,45 +67,53 @@ if (page === "index.html") {
 
 if (page === "RateSong.html") {
     document.addEventListener("DOMContentLoaded", function () {
-        var songs = ['Better Than Revenge', 'Red', 'All Too Well', 'We Are Never Getting Back Together',
-                     'Love Story', 'Lover', 'Delicate'];
-    
-        var song1NameElement = document.getElementById("song1Name");
-        var song2NameElement = document.getElementById("song2Name");
-    
-        var song1 = document.querySelector(".song1");
-        var song2 = document.querySelector(".song2");
-    
-        function getRandomSong() {
-            return songs[Math.floor(Math.random() * songs.length)];
-        }
-    
-        function updateSongNames() {
-            var newSong1 = getRandomSong();
-            var newSong2 = getRandomSong();
-    
-            // Prevent duplicates
-            while (newSong2 === newSong1) {
-                newSong2 = getRandomSong();
-            }
-    
-            song1NameElement.textContent = newSong1;
-            song2NameElement.textContent = newSong2;
-        }
-    
+        // Fetch the JSON file containing song data
+        fetch('track_data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Extract song names from the JSON data
+                var songs = Object.keys(data);
 
-        updateSongNames();
-        song1.onclick = function () {
-            console.log("clicked song 1:", song1NameElement.textContent);
-            updateSongNames();
-        };
-    
-        song2.onclick = function () {
-            console.log("clicked song 2:", song2NameElement.textContent);
-            updateSongNames();
-        };
-    });    
+                var song1NameElement = document.getElementById("song1Name");
+                var song2NameElement = document.getElementById("song2Name");
+                console.log(song1NameElement);
+
+                var song1 = document.querySelector(".song1");
+                var song2 = document.querySelector(".song2");
+
+                function getRandomSong() {
+                    return songs[Math.floor(Math.random() * songs.length)];
+                }
+
+                function updateSongNames() {
+                    var newSong1 = getRandomSong();
+                    var newSong2 = getRandomSong();
+
+                    // Prevent duplicates
+                    while (newSong2 === newSong1) {
+                        newSong2 = getRandomSong();
+                    }
+
+                    song1NameElement.textContent = newSong1;
+                    song2NameElement.textContent = newSong2;
+                }
+
+                updateSongNames();
+
+                song1.onclick = function () {
+                    console.log("clicked song 1:", song1NameElement.textContent);
+                    updateSongNames();
+                };
+
+                song2.onclick = function () {
+                    console.log("clicked song 2:", song2NameElement.textContent);
+                    updateSongNames();
+                };
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    });
 }
+
 
 var albums = {
     'Taylor Swift': 0,
@@ -145,7 +153,6 @@ if (page === "RateAlbum.html") {
 
             album1NameElement.textContent = newAlbum1;
             album2NameElement.textContent = newAlbum2;
-            console.log(albums);
         }
 
         // Initial setup
