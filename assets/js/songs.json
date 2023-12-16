@@ -1,0 +1,763 @@
+[
+    {
+        "song_name": "Blank Space (Taylor's Version)",
+        "similarity_score": 20.08726330912984
+    },
+    {
+        "song_name": "Nothing New (feat. Phoebe Bridgers) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 26.124412836106067
+    },
+    {
+        "song_name": "Forever & Always (Piano Version) (Taylor�s Version)",
+        "similarity_score": 42.833650879064535
+    },
+    {
+        "song_name": "Begin Again (Taylor's Version)",
+        "similarity_score": 3.1923867107985164
+    },
+    {
+        "song_name": "This Is Why We Can't Have Nice Things",
+        "similarity_score": 87.95462374300766
+    },
+    { "song_name": "Jump Then Fall", "similarity_score": 4.097937414127466 },
+    {
+        "song_name": "Slut! (Taylor's Version) (From The Vault)",
+        "similarity_score": 80.15620170118902
+    },
+    {
+        "song_name": "I Knew You Were Trouble.",
+        "similarity_score": 1.2350299274624086
+    },
+    {
+        "song_name": "Girl At Home (Taylor's Version)",
+        "similarity_score": 49.08701538955401
+    },
+    {
+        "song_name": "the lakes - bonus track",
+        "similarity_score": 104.0626502019148
+    },
+    { "song_name": "Mine - POP Mix", "similarity_score": 45.08534278991685 },
+    { "song_name": "Vigilante Shit", "similarity_score": 6.069425891797324 },
+    {
+        "song_name": "I'm Only Me When I'm With You",
+        "similarity_score": 68.01794143625693
+    },
+    {
+        "song_name": "Tell Me Why (Taylor�s Version)",
+        "similarity_score": 24.1861165769666
+    },
+    { "song_name": "Love Story", "similarity_score": 43.0500228343111 },
+    { "song_name": "cardigan", "similarity_score": 54.077393748822246 },
+    {
+        "song_name": "Clean (Taylor's Version)",
+        "similarity_score": 28.05466387921169
+    },
+    {
+        "song_name": "All You Had To Do Was Stay",
+        "similarity_score": 20.98326701618561
+    },
+    {
+        "song_name": "The Moment I Knew (Taylor's Version)",
+        "similarity_score": 49.96577042097785
+    },
+    {
+        "song_name": "Better Than Revenge (Taylor's Version)",
+        "similarity_score": 69.94523182599298
+    },
+    { "song_name": "Change", "similarity_score": 20.16998218194147 },
+    { "song_name": "mad woman", "similarity_score": 65.9388834821738 },
+    {
+        "song_name": "Untouchable (Taylor�s Version)",
+        "similarity_score": 124.3840525699804
+    },
+    {
+        "song_name": "You Are In Love (Taylor's Version)",
+        "similarity_score": 9.181825850033803
+    },
+    {
+        "song_name": "Babe (Taylor's Version) (From The Vault)",
+        "similarity_score": 91.83944827170328
+    },
+    { "song_name": "Getaway Car", "similarity_score": 96.04739688817138 },
+    { "song_name": "Bejeweled", "similarity_score": 88.03466998799793 },
+    { "song_name": "Starlight", "similarity_score": 50.01751868548196 },
+    {
+        "song_name": "If This Was A Movie",
+        "similarity_score": 71.90750677406692
+    },
+    { "song_name": "Treacherous", "similarity_score": 34.02656850057064 },
+    {
+        "song_name": "The Other Side Of The Door",
+        "similarity_score": 87.86673197620773
+    },
+    {
+        "song_name": "The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor�s Version)",
+        "similarity_score": 18.05832025413018
+    },
+    { "song_name": "hoax", "similarity_score": 43.67861580308962 },
+    {
+        "song_name": "Blank Space - Voice Memo",
+        "similarity_score": 52.009461574585295
+    },
+    { "song_name": "Bad Blood", "similarity_score": 94.20969288843098 },
+    {
+        "song_name": "When Emma Falls in Love (Taylor�s Version) (From The Vault)",
+        "similarity_score": 2.8560173694045603
+    },
+    { "song_name": "Wildest Dreams", "similarity_score": 63.99745671993525 },
+    { "song_name": "Dear Reader", "similarity_score": 32.08185790346616 },
+    { "song_name": "Haunted", "similarity_score": 86.16716765773151 },
+    { "song_name": "Cornelia Street", "similarity_score": 26.21024581613162 },
+    {
+        "song_name": "Innocent (Taylor's Version)",
+        "similarity_score": 57.63191293231659
+    },
+    { "song_name": "SuperStar", "similarity_score": 9.979993360601382 },
+    { "song_name": "Enchanted", "similarity_score": 87.92386613579448 },
+    { "song_name": "Our Song", "similarity_score": 13.102089887058456 },
+    { "song_name": "Should've Said No", "similarity_score": 91.99661713446037 },
+    { "song_name": "The Story Of Us", "similarity_score": 63.95648338771227 },
+    { "song_name": "I Wish You Would", "similarity_score": 42.034735389011345 },
+    { "song_name": "Cruel Summer", "similarity_score": 93.9895853406765 },
+    {
+        "song_name": "Better Than Revenge",
+        "similarity_score": 69.89273815827964
+    },
+    {
+        "song_name": "The Other Side Of The Door (Taylor�s Version)",
+        "similarity_score": 87.95485502094841
+    },
+    { "song_name": "Last Kiss", "similarity_score": 13.377282560121973 },
+    { "song_name": "Lover", "similarity_score": 7.562658012826459 },
+    { "song_name": "Ours", "similarity_score": 83.8397469450184 },
+    { "song_name": "epiphany", "similarity_score": 19.32891251334315 },
+    { "song_name": "Style", "similarity_score": 18.954979879124984 },
+    { "song_name": "Daylight", "similarity_score": 74.04116118850814 },
+    {
+        "song_name": "champagne problems",
+        "similarity_score": 95.47633733458112
+    },
+    {
+        "song_name": "Call It What You Want",
+        "similarity_score": 88.01220039488064
+    },
+    {
+        "song_name": "Timeless (Taylor�s Version) (From The Vault)",
+        "similarity_score": 66.87784562194139
+    },
+    {
+        "song_name": "it�s time to go - bonus track",
+        "similarity_score": 76.14829601880047
+    },
+    { "song_name": "This Love", "similarity_score": 67.98195576957778 },
+    { "song_name": "London Boy", "similarity_score": 81.91852424914204 },
+    {
+        "song_name": "Forever & Always (Taylor�s Version)",
+        "similarity_score": 52.06511865467986
+    },
+    {
+        "song_name": "Come In With The Rain (Taylor�s Version)",
+        "similarity_score": 67.92724542935572
+    },
+    { "song_name": "Speak Now", "similarity_score": 43.056632599135924 },
+    {
+        "song_name": "Out Of The Woods (Taylor's Version)",
+        "similarity_score": 16.036303410360233
+    },
+    {
+        "song_name": "We Are Never Ever Getting Back Together",
+        "similarity_score": 10.013515017593038
+    },
+    {
+        "song_name": "Look What You Made Me Do",
+        "similarity_score": 52.06327104002275
+    },
+    { "song_name": "All Too Well", "similarity_score": 17.112714987756032 },
+    { "song_name": "Sparks Fly", "similarity_score": 39.136087730336506 },
+    { "song_name": "Mastermind", "similarity_score": 50.54021597363131 },
+    {
+        "song_name": "You Belong With Me (Taylor�s Version)",
+        "similarity_score": 54.051083398798184
+    },
+    { "song_name": "Don�t Blame Me", "similarity_score": 59.91086816798456 },
+    { "song_name": "Red", "similarity_score": 49.02284801043848 },
+    {
+        "song_name": "It�s Nice To Have A Friend",
+        "similarity_score": 6.943373756000863
+    },
+    {
+        "song_name": "A Perfectly Good Heart",
+        "similarity_score": 80.0890492143929
+    },
+    { "song_name": "Afterglow", "similarity_score": 35.07973934321223 },
+    { "song_name": "High Infidelity", "similarity_score": 100.1424120072989 },
+    { "song_name": "Dear John", "similarity_score": 43.395164908864004 },
+    {
+        "song_name": "I Know Places (Taylor's Version)",
+        "similarity_score": 84.02742003100091
+    },
+    { "song_name": "Stay Stay Stay", "similarity_score": 23.98151657525318 },
+    {
+        "song_name": "Dear John (Taylor's Version)",
+        "similarity_score": 43.31394101251531
+    },
+    { "song_name": "Forever & Always", "similarity_score": 52.02717779405611 },
+    { "song_name": "Gorgeous", "similarity_score": 16.029421056647198 },
+    {
+        "song_name": "Miss Americana & The Heartbreak Prince",
+        "similarity_score": 74.0829968666975
+    },
+    {
+        "song_name": "The Way I Loved You (Taylor�s Version)",
+        "similarity_score": 85.0444486397986
+    },
+    { "song_name": "Lavender Haze", "similarity_score": 21.42733251432877 },
+    {
+        "song_name": "Wildest Dreams (Taylor's Version)",
+        "similarity_score": 63.98664041763536
+    },
+    {
+        "song_name": "coney island (feat. The National)",
+        "similarity_score": 32.24713251248724
+    },
+    {
+        "song_name": "Mr. Perfectly Fine (Taylor�s Version) (From The Vault)",
+        "similarity_score": 59.93637519863097
+    },
+    {
+        "song_name": "Death By A Thousand Cuts",
+        "similarity_score": 18.06723828202127
+    },
+    {
+        "song_name": "Never Grow Up (Taylor's Version)",
+        "similarity_score": 49.0545722907269
+    },
+    { "song_name": "invisible string", "similarity_score": 8.792194269902032 },
+    { "song_name": "willow", "similarity_score": 5.800902820684531 },
+    { "song_name": "mirrorball", "similarity_score": 34.31791976840535 },
+    { "song_name": "Untouchable", "similarity_score": 124.00974353497426 },
+    {
+        "song_name": "Today Was A Fairytale (Taylor�s Version)",
+        "similarity_score": 82.16810723285343
+    },
+    {
+        "song_name": "All You Had To Do Was Stay (Taylor's Version)",
+        "similarity_score": 21.01589143585654
+    },
+    { "song_name": "Sweet Nothing", "similarity_score": 100.27019712065193 },
+    {
+        "song_name": "Jump Then Fall (Taylor�s Version)",
+        "similarity_score": 84.1045215331538
+    },
+    {
+        "song_name": "Fifteen (Taylor�s Version)",
+        "similarity_score": 19.551430331914247
+    },
+    {
+        "song_name": "the last great american dynasty",
+        "similarity_score": 72.01335929254849
+    },
+    { "song_name": "The Outside", "similarity_score": 37.05735554465406 },
+    {
+        "song_name": "Mary's Song (Oh My My My)",
+        "similarity_score": 1.7291711597120174
+    },
+    { "song_name": "Superman", "similarity_score": 56.047194711175024 },
+    {
+        "song_name": "I Almost Do (Taylor's Version)",
+        "similarity_score": 69.87363585520964
+    },
+    {
+        "song_name": "ME! (feat. Brendon Urie of Panic! At The Disco)",
+        "similarity_score": 106.18152970010514
+    },
+    { "song_name": "Blank Space", "similarity_score": 20.02360082805253 },
+    { "song_name": "The Great War", "similarity_score": 20.166272332928397 },
+    { "song_name": "The Lucky One", "similarity_score": 41.949348592154884 },
+    { "song_name": "End Game", "similarity_score": 83.0667762269145 },
+    { "song_name": "...Ready For It?", "similarity_score": 84.00815715947579 },
+    { "song_name": "I Think He Knows", "similarity_score": 24.054209715597548 },
+    { "song_name": "I Know Places", "similarity_score": 83.96998747838401 },
+    { "song_name": "Stay Beautiful", "similarity_score": 55.61178047584482 },
+    {
+        "song_name": "Mean (Taylor's Version)",
+        "similarity_score": 87.90419508123487
+    },
+    { "song_name": "I Almost Do", "similarity_score": 69.86422775008961 },
+    { "song_name": "Picture To Burn", "similarity_score": 29.90512882295598 },
+    {
+        "song_name": "Welcome To New York",
+        "similarity_score": 41.02323841355027
+    },
+    {
+        "song_name": "We Were Happy (Taylor�s Version) (From The Vault)",
+        "similarity_score": 30.093394424931752
+    },
+    {
+        "song_name": "You Belong With Me",
+        "similarity_score": 53.99587960128222
+    },
+    { "song_name": "22", "similarity_score": 28.006212915868232 },
+    {
+        "song_name": "Say Don't Go (Taylor's Version) (From The Vault)",
+        "similarity_score": 33.995470414103245
+    },
+    { "song_name": "gold rush", "similarity_score": 36.266547549454636 },
+    {
+        "song_name": "Change (Taylor�s Version)",
+        "similarity_score": 20.14457243228587
+    },
+    { "song_name": "Fearless", "similarity_score": 24.065883108347727 },
+    { "song_name": "Shake It Off", "similarity_score": 84.07976048526311 },
+    {
+        "song_name": "I Wish You Would (Taylor's Version)",
+        "similarity_score": 42.0057979443518
+    },
+    { "song_name": "betty", "similarity_score": 20.070204321450483 },
+    { "song_name": "Innocent", "similarity_score": 58.05482001503456 },
+    { "song_name": "Fifteen", "similarity_score": 19.592971484584336 },
+    {
+        "song_name": "Sparks Fly (Taylor�s Version)",
+        "similarity_score": 39.20337162152323
+    },
+    {
+        "song_name": "All Too Well (Taylor's Version)",
+        "similarity_score": 109.97314821588499
+    },
+    {
+        "song_name": "Forever Winter (Taylor's Version) (From The Vault)",
+        "similarity_score": 40.00935560249141
+    },
+    { "song_name": "The Archer", "similarity_score": 48.426458368467195 },
+    { "song_name": "The Man", "similarity_score": 34.06798559049443 },
+    {
+        "song_name": "Treacherous (Taylor's Version)",
+        "similarity_score": 33.97977669686828
+    },
+    {
+        "song_name": "Enchanted (Taylor's Version)",
+        "similarity_score": 6.616222347294981
+    },
+    {
+        "song_name": "Style (Taylor's Version)",
+        "similarity_score": 18.945528293605978
+    },
+    { "song_name": "Hits Different", "similarity_score": 30.02219036675885 },
+    {
+        "song_name": "22 (Taylor's Version)",
+        "similarity_score": 27.9952170446798
+    },
+    {
+        "song_name": "Ours (Taylor�s Version)",
+        "similarity_score": 83.82345021375178
+    },
+    {
+        "song_name": "Message In A Bottle (Taylor's Version) (From The Vault)",
+        "similarity_score": 39.912920574387925
+    },
+    {
+        "song_name": "right where you left me - bonus track",
+        "similarity_score": 61.90684894967456
+    },
+    {
+        "song_name": "I Forgot That You Existed",
+        "similarity_score": 17.317949084652692
+    },
+    { "song_name": "ivy", "similarity_score": 13.155507789728333 },
+    { "song_name": "Karma", "similarity_score": 14.052495423927418 },
+    {
+        "song_name": "Forever & Always - Piano Version",
+        "similarity_score": 43.1395208433744
+    },
+    { "song_name": "Begin Again", "similarity_score": 3.5794587236854043 },
+    { "song_name": "You Are In Love", "similarity_score": 94.13163280837614 },
+    {
+        "song_name": "Castles Crumbling (feat. Hayley Williams) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 71.80927305181548
+    },
+    {
+        "song_name": "Soon You�ll Get Better (feat. The Chicks)",
+        "similarity_score": 131.60949245918303
+    },
+    { "song_name": "Labyrinth", "similarity_score": 35.16503119933233 },
+    { "song_name": "Clean", "similarity_score": 27.994972050361216 },
+    {
+        "song_name": "You All Over Me (feat. Maren Morris) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 66.89429379401281
+    },
+    {
+        "song_name": "I Bet You Think About Me (feat. Chris Stapleton) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 73.67244281962488
+    },
+    {
+        "song_name": "Electric Touch (feat. Fall Out Boy) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 55.096419979636444
+    },
+    {
+        "song_name": "The Lucky One (Taylor's Version)",
+        "similarity_score": 41.88891562331951
+    },
+    { "song_name": "Midnight Rain", "similarity_score": 64.35553682599615 },
+    {
+        "song_name": "Superman (Taylor�s Version)",
+        "similarity_score": 56.00435973370878
+    },
+    {
+        "song_name": "Long Live (Taylor's Version)",
+        "similarity_score": 127.90608162132074
+    },
+    {
+        "song_name": "Karma (feat. Ice Spice)",
+        "similarity_score": 13.982607299826858
+    },
+    {
+        "song_name": "Run (feat. Ed Sheeran) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 49.03272918398666
+    },
+    { "song_name": "White Horse", "similarity_score": 16.632053947403435 },
+    {
+        "song_name": "I Know Places - Voice Memo",
+        "similarity_score": 11.836286741232398
+    },
+    {
+        "song_name": "Red - Original Demo Recording",
+        "similarity_score": 49.02662339908886
+    },
+    { "song_name": "Mean", "similarity_score": 88.00106423705196 },
+    {
+        "song_name": "Red (Taylor's Version)",
+        "similarity_score": 49.06684754388128
+    },
+    {
+        "song_name": "Better Man (Taylor's Version) (From The Vault)",
+        "similarity_score": 2.204116478344329
+    },
+    { "song_name": "the 1", "similarity_score": 63.89601927289746 },
+    {
+        "song_name": "Teardrops on My Guitar - Pop Version",
+        "similarity_score": 124.01749351499936
+    },
+    {
+        "song_name": "Come In With The Rain",
+        "similarity_score": 67.95556240560838
+    },
+    {
+        "song_name": "Come Back...Be Here (Taylor's Version)",
+        "similarity_score": 3.90589323647527
+    },
+    {
+        "song_name": "Bye Bye Baby (Taylor�s Version) (From The Vault)",
+        "similarity_score": 4.363769262480136
+    },
+    {
+        "song_name": "Come Back...Be Here",
+        "similarity_score": 3.9690403535347625
+    },
+    {
+        "song_name": "Foolish One (Taylor�s Version) (From The Vault)",
+        "similarity_score": 21.032841912844205
+    },
+    {
+        "song_name": "I Did Something Bad",
+        "similarity_score": 7.009224836746292
+    },
+    {
+        "song_name": "Haunted (Taylor's Version)",
+        "similarity_score": 86.31525555417582
+    },
+    {
+        "song_name": "I Wish You Would - Voice Memo",
+        "similarity_score": 43.46866539515498
+    },
+    {
+        "song_name": "Would've, Could've, Should've",
+        "similarity_score": 81.95204932922516
+    },
+    {
+        "song_name": "Don�t You (Taylor�s Version) (From The Vault)",
+        "similarity_score": 26.4192762427106
+    },
+    {
+        "song_name": "This Love (Taylor�s Version)",
+        "similarity_score": 68.10358254491462
+    },
+    {
+        "song_name": "Welcome To New York (Taylor's Version)",
+        "similarity_score": 41.026356194095335
+    },
+    { "song_name": "Tell Me Why", "similarity_score": 24.24914697328718 },
+    { "song_name": "Paper Rings", "similarity_score": 27.981142383085704 },
+    {
+        "song_name": "Snow On The Beach (feat. More Lana Del Rey)",
+        "similarity_score": 34.13241745439015
+    },
+    {
+        "song_name": "Shake It Off (Taylor's Version)",
+        "similarity_score": 84.05646860991303
+    },
+    {
+        "song_name": "Superstar (Taylor�s Version)",
+        "similarity_score": 95.85462016439678
+    },
+    { "song_name": "cowboy like me", "similarity_score": 52.02107723243667 },
+    {
+        "song_name": "Hey Stephen (Taylor�s Version)",
+        "similarity_score": 39.987434694476406
+    },
+    { "song_name": "happiness", "similarity_score": 46.269259550658845 },
+    {
+        "song_name": "Last Kiss (Taylor's Version)",
+        "similarity_score": 3.949784454845997
+    },
+    {
+        "song_name": "The Moment I Knew",
+        "similarity_score": 50.015226061654424
+    },
+    { "song_name": "Holy Ground", "similarity_score": 81.037255961616 },
+    {
+        "song_name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+        "similarity_score": 17.174109381259544
+    },
+    {
+        "song_name": "State Of Grace - Acoustic",
+        "similarity_score": 31.064301003603
+    },
+    { "song_name": "False God", "similarity_score": 5.931373083514563 },
+    {
+        "song_name": "State Of Grace (Acoustic Version) (Taylor's Version)",
+        "similarity_score": 133.11118192290058
+    },
+    {
+        "song_name": "I Can See You (Taylor�s Version) (From The Vault)",
+        "similarity_score": 47.06657110917671
+    },
+    {
+        "song_name": "New Romantics (Taylor's Version)",
+        "similarity_score": 45.97751508164151
+    },
+    { "song_name": "Invisible", "similarity_score": 20.00692872676419 },
+    { "song_name": "my tears ricochet", "similarity_score": 54.10340312759352 },
+    { "song_name": "So It Goes...", "similarity_score": 1.4160048991039889 },
+    { "song_name": "Anti-Hero", "similarity_score": 20.93226579642538 },
+    {
+        "song_name": "Sad Beautiful Tragic",
+        "similarity_score": 54.305337158048204
+    },
+    {
+        "song_name": "Now That We Don't Talk (Taylor's Version) (From The Vault)",
+        "similarity_score": 34.12984713921421
+    },
+    {
+        "song_name": "exile (feat. Bon Iver)",
+        "similarity_score": 2.0504780048722884
+    },
+    { "song_name": "Paris", "similarity_score": 35.19191174337249 },
+    { "song_name": "marjorie", "similarity_score": 20.745537487160643 },
+    { "song_name": "long story short", "similarity_score": 81.89595534410938 },
+    {
+        "song_name": "Speak Now (Taylor's Version)",
+        "similarity_score": 43.138155568590264
+    },
+    { "song_name": "The Best Day", "similarity_score": 50.11303447269749 },
+    {
+        "song_name": "White Horse (Taylor�s Version)",
+        "similarity_score": 109.25715080039541
+    },
+    {
+        "song_name": "We Are Never Ever Getting Back Together (Taylor's Version)",
+        "similarity_score": 96.00784244741517
+    },
+    { "song_name": "State Of Grace", "similarity_score": 53.966220019102835 },
+    {
+        "song_name": "Haunted - Acoustic Version",
+        "similarity_score": 5.151120667675291
+    },
+    { "song_name": "dorothea", "similarity_score": 43.996566113779124 },
+    { "song_name": "closure", "similarity_score": 76.00240164334868 },
+    {
+        "song_name": "I Knew You Were Trouble (Taylor's Version)",
+        "similarity_score": 78.00184967515835
+    },
+    { "song_name": "Girl At Home", "similarity_score": 49.04440451238112 },
+    { "song_name": "illicit affairs", "similarity_score": 43.765320401676505 },
+    {
+        "song_name": "The Story Of Us (Taylor's Version)",
+        "similarity_score": 63.95665117778023
+    },
+    {
+        "song_name": "Wonderland (Taylor's Version)",
+        "similarity_score": 107.88588178274543
+    },
+    { "song_name": "You're Not Sorry", "similarity_score": 58.058037515663486 },
+    {
+        "song_name": "Is It Over Now? (Taylor's Version) (From The Vault)",
+        "similarity_score": 24.00883002069766
+    },
+    {
+        "song_name": "Back To December - Acoustic",
+        "similarity_score": 65.74826885725122
+    },
+    {
+        "song_name": "You�re Not Sorry (Taylor�s Version)",
+        "similarity_score": 57.88542388805363
+    },
+    { "song_name": "Wonderland", "similarity_score": 108.01160077499672 },
+    { "song_name": "peace", "similarity_score": 74.34165900780054 },
+    {
+        "song_name": "Tied Together with a Smile",
+        "similarity_score": 70.17253448366475
+    },
+    { "song_name": "tolerate it", "similarity_score": 4.086121443122317 },
+    { "song_name": "Mine", "similarity_score": 45.20345694838331 },
+    {
+        "song_name": "State Of Grace (Taylor's Version)",
+        "similarity_score": 53.96481430698915
+    },
+    {
+        "song_name": "Suburban Legends (Taylor's Version) (From The Vault)",
+        "similarity_score": 42.09432589726963
+    },
+    { "song_name": "Out Of The Woods", "similarity_score": 16.020437660817734 },
+    { "song_name": "Delicate", "similarity_score": 19.403239209030428 },
+    { "song_name": "august", "similarity_score": 13.838181285532457 },
+    {
+        "song_name": "The Best Day (Taylor�s Version)",
+        "similarity_score": 49.03458214979753
+    },
+    { "song_name": "Dress", "similarity_score": 44.142410025427594 },
+    {
+        "song_name": "You're On Your Own, Kid",
+        "similarity_score": 44.203539741713705
+    },
+    {
+        "song_name": "The Very First Night (Taylor's Version) (From The Vault)",
+        "similarity_score": 45.02762246893541
+    },
+    {
+        "song_name": "Bad Blood (feat. Kendrick Lamar) (Taylor's Version)",
+        "similarity_score": 94.0852384099825
+    },
+    { "song_name": "Maroon", "similarity_score": 32.10178140654148 },
+    {
+        "song_name": "You Need To Calm Down",
+        "similarity_score": 9.08260010463384
+    },
+    { "song_name": "New Romantics", "similarity_score": 45.95640448174422 },
+    { "song_name": "Breathe", "similarity_score": 71.94968333577012 },
+    {
+        "song_name": "�tis the damn season",
+        "similarity_score": 69.92867456031514
+    },
+    {
+        "song_name": "no body, no crime (feat. HAIM)",
+        "similarity_score": 3.21853019436602
+    },
+    { "song_name": "Hey Stephen", "similarity_score": 40.00279693759456 },
+    {
+        "song_name": "How You Get The Girl",
+        "similarity_score": 43.99397112087768
+    },
+    {
+        "song_name": "evermore (feat. Bon Iver)",
+        "similarity_score": 49.35029603945585
+    },
+    {
+        "song_name": "Love Story (Taylor�s Version)",
+        "similarity_score": 43.1020839202187
+    },
+    {
+        "song_name": "Bigger Than The Whole Sky",
+        "similarity_score": 9.19557176144894
+    },
+    {
+        "song_name": "How You Get The Girl (Taylor's Version)",
+        "similarity_score": 43.997709867119845
+    },
+    {
+        "song_name": "A Place in this World",
+        "similarity_score": 39.187525465635474
+    },
+    {
+        "song_name": "Sad Beautiful Tragic (Taylor's Version)",
+        "similarity_score": 54.31604902980363
+    },
+    { "song_name": "Never Grow Up", "similarity_score": 48.959955879039164 },
+    { "song_name": "seven", "similarity_score": 19.441788830663295 },
+    {
+        "song_name": "Fearless (Taylor�s Version)",
+        "similarity_score": 24.163401451293385
+    },
+    {
+        "song_name": "The Way I Loved You",
+        "similarity_score": 84.92444204812057
+    },
+    {
+        "song_name": "Back To December (Taylor's Version)",
+        "similarity_score": 66.10565549939189
+    },
+    {
+        "song_name": "Starlight (Taylor's Version)",
+        "similarity_score": 50.012565604615894
+    },
+    { "song_name": "Cold As You", "similarity_score": 99.55231908391762 },
+    {
+        "song_name": "Treacherous - Original Demo Recording",
+        "similarity_score": 34.034603895505434
+    },
+    { "song_name": "Glitch", "similarity_score": 64.9198210072723 },
+    { "song_name": "this is me trying", "similarity_score": 59.96866951966665 },
+    { "song_name": "Long Live", "similarity_score": 128.13092246480028 },
+    {
+        "song_name": "Stay Stay Stay (Taylor's Version)",
+        "similarity_score": 24.025123704721434
+    },
+    {
+        "song_name": "That�s When (feat. Keith Urban) (Taylor�s Version) (From The Vault)",
+        "similarity_score": 14.209713487580753
+    },
+    { "song_name": "New Year�s Day", "similarity_score": 19.974157658830816 },
+    {
+        "song_name": "Mine (Taylor's Version)",
+        "similarity_score": 45.2204590143929
+    },
+    {
+        "song_name": "Snow On The Beach (feat. Lana Del Rey)",
+        "similarity_score": 34.73425013651703
+    },
+    {
+        "song_name": "Everything Has Changed",
+        "similarity_score": 4.024830661460781
+    },
+    {
+        "song_name": "Breathe (feat. Colbie Caillat) (Taylor�s Version)",
+        "similarity_score": 72.0285479761226
+    },
+    { "song_name": "King Of My Heart", "similarity_score": 34.0371647645618 },
+    {
+        "song_name": "Dancing With Our Hands Tied",
+        "similarity_score": 84.01741566714071
+    },
+    {
+        "song_name": "Holy Ground (Taylor's Version)",
+        "similarity_score": 80.89188076112119
+    },
+    { "song_name": "Back To December", "similarity_score": 65.91056033851855 },
+    {
+        "song_name": "Ronan (Taylor's Version)",
+        "similarity_score": 40.26627210737633
+    },
+    { "song_name": "Question...?", "similarity_score": 33.05243531061052 },
+    {
+        "song_name": "Bad Blood (Taylor's Version)",
+        "similarity_score": 93.96391430958414
+    },
+    {
+        "song_name": "Everything Has Changed (feat. Ed Sheeran) (Taylor�s Version)",
+        "similarity_score": 4.154103668344056
+    },
+    { "song_name": "The Last Time", "similarity_score": 18.080021576877872 },
+    {
+        "song_name": "Teardrops On My Guitar - Radio Single Remix",
+        "similarity_score": 23.951046214774088
+    }
+]

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-custom navbar-expand-lg bg-light fixed-top">
+  <nav class="navbar navbar-custom custom-toggler navbar-expand-md bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand text-primary" href="index.html">TSwiftly</a>
       <button
@@ -34,7 +34,8 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link active text-primary"
+              id="disabled-nav"
+              class="nav-link disabled"
               aria-current="page"
               href="FindSimilarSong.html"
               >Similar Song</a
@@ -55,6 +56,14 @@
               href="RateAlbum.html"
               >Rate Album</a
             >
+            <li class="nav-item">
+              <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="About.html"
+                  >About</a
+              >
+          </li>
           </li>
         </ul>
       </div>
@@ -62,128 +71,133 @@
   </nav>
 
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        <h1>
-          What Are You Looking For?
-        </h1>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Only Taylor's Version
-            </h5>
+    <form id="findSongFormData" name="findSongFormData" method="GET" action="">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="section-header">
+            What Are You Looking For?
+          </h1>
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Only Taylor's Version
+              </h5>
+            </div>
+            <div class="col-6">
+              <input id="taylors-version" class="form-check-input" type="checkbox" value="">
+            </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <input class="form-check-input" type="checkbox" value="" id="taylors-version">
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Era
+              </h5>
+            </div>
+            <div class="col-6">
+              <select id="era" class="form-select" aria-label="Default select example">
+                <option selected value="any">Any</option>
+                <option value="debut">Debut</option>
+                <option value="fearless">Fearless</option>
+                <option value="speak-now">Speak Now</option>
+                <option value="red">Red</option>
+                <option value="1989">1989</option>
+                <option value="reputation">Reputation</option>
+                <option value="lover">Lover</option>
+                <option value="folklore">Folklore</option>
+                <option value="evermore">Evermore</option>
+                <option value="midnights">Midnights</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Duration
+              </h5>
+            </div>
+            <div class="col-6">
+              <select id="duration" class="form-select" aria-label="Default select example">
+                <option selected value="any">Any</option>
+                <option value="short">Short</option>
+                <option value="medium">Medium</option>
+                <option value="long">Long</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Tempo
+              </h5>
+            </div>
+            <div class="col-6">
+              <select id="tempo" class="form-select" aria-label="Default select example">
+                <option selected value="any">Any</option>
+                <option value="low">Low</option>
+                <option value="regular">Regular</option>
+                <option value="fast">Fast</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Energy
+              </h5>
+            </div>
+            <div class="col-6">
+              <select id="energy" class="form-select" aria-label="Default select example">
+                <option selected value="any">Any</option>
+                <option value="mellow">Mellow</option>
+                <option value="moderate">Moderate</option>
+                <option value="upbeat">Upbeat</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-5">
+              <h5 class="filters">
+                Popularity
+              </h5>
+            </div>
+            <div class="col-6">
+              <select id="popularity" class="form-select" aria-label="Default select example">
+                <option selected value="any">Any</option>
+                <option value="underground">Underground</option>
+                <option value="recognizable">Recognizable</option>
+                <option value="hot100">Hot 100</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-6 col-lg-4">
+              <button type="button" class="btn btn-primary song-submit" style="width: 100%"><h6 class="button-text" style="color: #f4f3ee">Submit</h6></button>
+            </div>
+            <div class="col-6 col-lg-4 offset-lg-1">
+              <button type="button" class="btn btn-primary song-reset" style="width: 100%;"><h6 class="button-text" style="color: #f4f3ee">Reset</h6></button>
+            </div>
           </div>
         </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Era
-            </h5>
-          </div>
-          <div class="col-12 col-lg-6">
-            <select class="form-select" aria-label="Default select example">
-              <option selected value="any">Any</option>
-              <option value="debut">Debut</option>
-              <option value="fearless">Fearless</option>
-              <option value="speak-now">Speak Now</option>
-              <option value="red">Red</option>
-              <option value="1989">1989</option>
-              <option value="reputation">Reputation</option>
-              <option value="lover">Lover</option>
-              <option value="folklore">Folklore</option>
-              <option value="evermore">Evermore</option>
-              <option value="midnights">Midnights</option>
-            </select>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Duration
-            </h5>
-          </div>
-          <div class="col-12 col-lg-6">
-            <select class="form-select" aria-label="Default select example">
-              <option selected value="any">Any</option>
-              <option value="short">Short</option>
-              <option value="medium">Medium</option>
-              <option value="long">Long</option>
-            </select>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Tempo
-            </h5>
-          </div>
-          <div class="col-12 col-lg-6">
-            <select class="form-select" aria-label="Default select example">
-              <option selected value="any">Any</option>
-              <option value="low">Low</option>
-              <option value="regular">Regular</option>
-              <option value="fast">Fast</option>
-            </select>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Energy
-            </h5>
-          </div>
-          <div class="col-12 col-lg-6">
-            <select class="form-select" aria-label="Default select example">
-              <option selected value="any">Any</option>
-              <option value="mellow">Mellow</option>
-              <option value="moderate">Moderate</option>
-              <option value="upbeat">Upbeat</option>
-            </select>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-5">
-            <h5>
-              Popularity
-            </h5>
-          </div>
-          <div class="col-12 col-lg-6">
-            <select class="form-select" aria-label="Default select example">
-              <option selected value="any">Any</option>
-              <option value="underground">Underground</option>
-              <option value="recognizable">Recognizable</option>
-              <option value="hot100">Hot 100</option>
-            </select>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <a href="#" class="btn submit-btn">Submit</a>
-          </div>
+        <div class="col-6">
+          <h1 id="song-title" class="title-scroll section-header">
+            Song Title
+          </h1>
+          <br>
+          <img src="./assets/img/DefaultImg.jpg"  id="albumCover" class="img-fluid" alt="album cover">
         </div>
       </div>
-      <div class="col-12 col-lg-5 offset-lg-1">
-        <h1>
-          Song Title
-        </h1>
-        <br>
-        <img src="./assets/img/RedAlbumCover.jpg" class="img-fluid" alt="album cover">
-      </div>
-    </div>
+    </form>
   </div>
 
 
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="./assets/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>

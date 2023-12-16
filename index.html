@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="assets/css/styles.css" />
     </head>
     <body class="homePage">
-        <nav class="navbar navbar-custom navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-custom custom-toggler navbar-expand-md bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand text-primary" href="index.html"
                     >TSwiftly</a
@@ -44,7 +44,8 @@
                         </li>
                         <li class="nav-item">
                             <a
-                                class="nav-link active text-primary"
+                                id="disabled-nav"
+                                class="nav-link disabled"
                                 aria-current="page"
                                 href="FindSimilarSong.html"
                                 >Similar Song</a
@@ -65,6 +66,14 @@
                                 href="RateAlbum.html"
                                 >Rate Album</a
                             >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active text-primary"
+                                    aria-current="page"
+                                    href="About.html"
+                                    >About</a
+                                >
+                            </li>
                         </li>
                     </ul>
                 </div>
@@ -74,8 +83,8 @@
         <div class="img1">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6 offset-lg-6">
-                        <h1 style="text-align: left; font-size: 60px">
+                    <div class="col-8 col-sm-6 offset-4 offset-sm-6">
+                        <h1 class="homePageText">
                             Find a song based on your personal preferences or
                             similar to another song you like.
                         </h1>
@@ -83,30 +92,30 @@
                 </div>
                 <br />
                 <div class="row">
-                    <div class="col-12 col-lg-6 offset-lg-6">
+                    <div class="col-8 col-sm-6 offset-4 offset-sm-6">
                         <div class="row">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-10 col-sm-6 mb-2 mb-sm-0">
                                 <a
                                     href="FindMeASong.html"
                                     class="btn btn-primary"
                                     style="width: 100%"
                                 >
-                                    <h5 style="font-size: 35px; color: #f4f3ee">
+                                    <h5 id="find-song-button" class="button-text" style="color: #f4f3ee;">
                                         Find Song
                                     </h5>
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-6">
-                                <a
-                                    href="FindSimilarSong.html"
+                            <div class="col-10 col-sm-6">
+                                <button
                                     class="btn btn-primary"
                                     style="width: 100%"
+                                    disabled
                                 >
-                                    <h5 style="font-size: 35px; color: #f4f3ee">
-                                        Similar Song
+                                    <h5 id="similar-song-button" class="button-text" style="color: #f4f3ee;">
+                                        Similar Song (Coming Soon)
                                     </h5>
-                                </a>
-                            </div>
+                                </button>
+                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -116,14 +125,8 @@
         <div class="img2">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6 offset-lg-1">
-                        <h1
-                            style="
-                                text-align: left;
-                                font-size: 60px;
-                                color: #f4f3ee;
-                            "
-                        >
+                    <div class="col-10 col-sm-6 offset-1">
+                        <h1 class="homePageText" style="color: #f4f3ee;">
                             Rate Taylor's Songs and Albums to see how you
                             compare to other swifties!
                         </h1>
@@ -131,26 +134,26 @@
                 </div>
                 <br />
                 <div class="row">
-                    <div class="col-12 col-lg-6 offset-lg-1">
+                    <div class="col-10 col-sm-6 offset-1">
                         <div class="row">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-8 col-sm-6 mb-2 mb-sm-0">
                                 <a
                                     href="RateSong.html"
                                     class="btn btn-primary"
                                     style="width: 100%"
                                 >
-                                    <h5 style="font-size: 35px; color: #f4f3ee">
+                                    <h5 id="rate-song-button" class="button-text" style="color: #f4f3ee;">
                                         Rate Song
                                     </h5>
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-8 col-sm-6">
                                 <a
                                     href="RateAlbum.html"
                                     class="btn btn-primary"
                                     style="width: 100%"
                                 >
-                                    <h5 style="font-size: 35px; color: #f4f3ee">
+                                    <h5 id="rate-album-button" class="button-text" style="color: #f4f3ee;">
                                         Rate Album
                                     </h5>
                                 </a>
@@ -162,12 +165,12 @@
         </div>
 
         <div class="container">
-            <div class="row" style="margin-top: 10px">
+            <div class="row mt-4">
                 <div
-                    class="col-12 col-lg-4 offset-4"
+                    class="col-12"
                     style="text-align: center"
                 >
-                    <h2 class="trending-text">Trending</h2>
+                    <h3 class="trending-text">User Popularity</h3>
                     <br />
                 </div>
             </div>
@@ -179,125 +182,90 @@
                     <div class="carousel-item active">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title" style="color: #f4f3ee">
+                                <h4 id="song-title1" class="card-title title-scroll" style="color: #f4f3ee">
                                     Song 1
                                 </h4>
                                 <div class="img-wrapper">
                                     <img
-                                        src="./assets/img/RedAlbumCover.jpg"
+                                        id="albumCover1"
+                                        src="./assets/img/DefaultImg.jpg"
                                         class="d-block w-100"
                                         alt="Album Cover"
                                     />
                                 </div>
                                 <br />
-                                <div style="text-align: center">
-                                    <a
-                                        href="#"
-                                        class="btn btn-primary"
-                                        style="text-align: center"
-                                        >Play Song</a
-                                    >
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title" style="color: #f4f3ee">
+                                <h4 id="song-title2" class="card-title title-scroll" style="color: #f4f3ee">
                                     Song 2
                                 </h4>
                                 <div class="img-wrapper">
                                     <img
-                                        src="./assets/img/RedAlbumCover.jpg"
+                                        id="albumCover2"
+                                        src="./assets/img/DefaultImg.jpg"
                                         class="d-block w-100"
                                         alt="Album Cover"
                                     />
                                 </div>
                                 <br />
-                                <div style="text-align: center">
-                                    <a
-                                        href="#"
-                                        class="btn btn-primary"
-                                        style="text-align: center"
-                                        >Play Song</a
-                                    >
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title" style="color: #f4f3ee">
+                                <h4 id="song-title3" class="card-title title-scroll" style="color: #f4f3ee">
                                     Song 3
                                 </h4>
                                 <div class="img-wrapper">
                                     <img
-                                        src="./assets/img/RedAlbumCover.jpg"
+                                        id="albumCover3"    
+                                        src="./assets/img/DefaultImg.jpg"
                                         class="d-block w-100"
                                         alt="Album Cover"
                                     />
                                 </div>
                                 <br />
-                                <div style="text-align: center">
-                                    <a
-                                        href="#"
-                                        class="btn btn-primary"
-                                        style="text-align: center"
-                                        >Play Song</a
-                                    >
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title" style="color: #f4f3ee">
+                                <h4 id="song-title4" class="card-title title-scroll" style="color: #f4f3ee">
                                     Song 4
                                 </h4>
                                 <div class="img-wrapper">
                                     <img
-                                        src="./assets/img/RedAlbumCover.jpg"
+                                        id="albumCover4"
+                                        src="./assets/img/DefaultImg.jpg"
                                         class="d-block w-100"
                                         alt="Album Cover"
                                     />
                                 </div>
                                 <br />
-                                <div style="text-align: center">
-                                    <a
-                                        href="#"
-                                        class="btn btn-primary"
-                                        style="text-align: center"
-                                        >Play Song</a
-                                    >
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title" style="color: #f4f3ee">
+                                <h4 id="song-title5" class="card-title title-scroll" style="color: #f4f3ee">
                                     Song 5
                                 </h4>
                                 <div class="img-wrapper">
                                     <img
-                                        src="./assets/img/RedAlbumCover.jpg"
-                                        class="d-block w-100"
+                                        id="albumCover5"
+                                        src="./assets/img/DefaultImg.jpg"
+                                        class="d-block w-100 img-fluid"
                                         alt="Album Cover"
                                     />
                                 </div>
                                 <br />
-                                <div style="text-align: center">
-                                    <a
-                                        href="#"
-                                        class="btn btn-primary"
-                                        style="text-align: center"
-                                        >Play Song</a
-                                    >
-                                </div>
                             </div>
                         </div>
                     </div>

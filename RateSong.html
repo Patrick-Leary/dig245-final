@@ -8,56 +8,70 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-custom navbar-expand-lg bg-light fixed-top">
+  <nav class="navbar navbar-custom custom-toggler navbar-expand-md bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand text-primary" href="index.html">TSwiftly</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
-          <li class="nav-item">
-            <a
-              class="nav-link active text-primary"
-              aria-current="page"
-              href="FindMeASong.html"
-              >Find Song</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active text-primary"
-              aria-current="page"
-              href="FindSimilarSong.html"
-              >Similar Song</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active text-primary"
-              aria-current="page"
-              href="RateSong.html"
-              >Rate Song</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active text-primary"
-              aria-current="page"
-              href="RateAlbum.html"
-              >Rate Album</a
-            >
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand text-primary" href="index.html"
+            >TSwiftly</a
+        >
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+        >
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+                <li class="nav-item">
+                    <a
+                        class="nav-link active text-primary"
+                        aria-current="page"
+                        href="FindMeASong.html"
+                        >Find Song</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a
+                        id="disabled-nav"
+                        class="nav-link disabled"
+                        aria-current="page"
+                        href="FindSimilarSong.html"
+                        >Similar Song</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active text-primary"
+                        aria-current="page"
+                        href="RateSong.html"
+                        >Rate Song</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active text-primary"
+                        aria-current="page"
+                        href="RateAlbum.html"
+                        >Rate Album</a
+                    >
+                    <li class="nav-item">
+                      <a
+                          class="nav-link active text-primary"
+                          aria-current="page"
+                          href="About.html"
+                          >About</a
+                      >
+                  </li>
+                </li>
+            </ul>
+        </div>
     </div>
   </nav>
 
@@ -66,26 +80,30 @@
     <div class="row mb-3">
       <h1 style="text-align: center;">Rate Songs</h1>
     </div>
-    <div class="row">
-      <div class="col-12 col-lg-5 song-title">
-        <h2 id="song1Name">Song 1</h2>
+    <div class="row mt-4 mt-sm-0">
+      <div class="col-6 col-sm-5 track-title-1">
+        <h2 id="track1Name" class="title-scroll track-title">Song 1</h2>
       </div>
-      <div class="col-12 col-lg-5 offset-lg-2 song-title">
-        <h2 id="song2Name">Song 2</h2>
+      <div class="col-6 col-sm-5 offset-sm-2 track-title-2">
+        <h2 id="track2Name" class="title-scroll track-title">Song 2</h2>
       </div>
     </div>
-    <div class="row">
-        <div class="col-12 col-lg-5 song1">
-          <img src="./assets/img/RedAlbumCover.jpg" class="img-fluid">
-        </div>
-        <div class="col-12 col-lg-2 d-flex align-items-center">
-          <h2 class="or text-center" style="margin: 0 auto;">
-            Or
-          </h2>
-        </div>
-        <div class="col-12 col-lg-5 song2">
-          <img src="./assets/img/RedAlbumCover.jpg" class="img-fluid">
-        </div>
+    <div class="row align-items-center">
+      <div class="col-6 col-sm-5 track1">
+          <img src="./assets/img/DefaultImg.jpg" class="img-fluid" id="album1Cover">
+      </div>
+      <div class="col-2 col-sm-2 d-flex d-none d-sm-block">
+          <button type="button" class="btn btn-primary song-skip mt-auto" style="width: 100%;">
+              <h5 class="skip-button-text" style="color: #f4f3ee">Skip</h5>
+          </button>
+      </div>
+      <div class="col-6 col-sm-5 track2">
+          <img src="./assets/img/DefaultImg.jpg" class="img-fluid" id="album2Cover">
+      </div>
+    </div>
+    <br>
+    <div class="col-6 offset-3 d-flex d-sm-none mt-4">
+      <button type="button" class="btn btn-primary song-skip" style="width: 100%;"><h5 class="skip-button-text" style="color: #f4f3ee">Skip</h5></button>
     </div>
   </div>
     

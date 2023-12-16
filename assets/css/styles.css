@@ -8,27 +8,110 @@ html, body {
 }
 
 .img1 {
-    background-image: url(./LakeBackground-transformed.png);
-    
+    background-image: url(./LakeBackground-transformed.png); 
 }
-
 .img2 {
     background-image: url(./ForestBackground-transformed.png);
 }
 
 .img1, .img2 {
-    height: 120vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
     display: flex;
     align-items: center;
+    height: 65vw;
 }
 
 
 h1, h2, h3, h4, h5, h6, p {
     color: #0C0A3E;
+}
+
+.homePageText {
+    text-align: left;
+    font-size: 4vw;
+    color: #0C0A3E;
+}
+#find-song-button, #similar-song-button, #rate-song-button, #rate-album-button {
+    font-size: 2vw;
+}
+.trending-text {
+    font-size: 5vw;
+}
+.track-title {
+    font-size: 3vw;
+}
+.filters {
+    font-size: 2vw;
+}
+.section-header {
+    font-size: 3vw;
+}
+.button-text {
+    font-size: 2vw;
+}
+.skip-button-text {
+    font-size: 2vw;
+}
+@media (min-width: 500px) and (max-width: 768px) {
+    .homePageText {
+        font-size: 4vw;
+    }
+    #find-song-button, #similar-song-button, #rate-song-button, #rate-album-button {
+        font-size: 2vw;
+    }
+    .trending-text {
+        font-size: 6vw;
+    }
+    .track-title {
+        font-size: 4vw;
+    }
+    .filters {
+        font-size: 3vw;
+    }
+    .section-header {
+        font-size: 4vw;
+    }
+    .button-text {
+        font-size: 3vw;
+    }
+    .skip-button-text {
+        font-size: 3vw;
+    }
+}
+@media (max-width: 500px) {
+    .img1 {
+        background-image: url(./LakeBackground-transformed-phone-test.png); 
+    }
+    .homePageText {
+        font-size: 8vw;
+    }
+    #find-song-button, #similar-song-button, #rate-song-button, #rate-album-button {
+        font-size: 5vw;
+    }
+    .trending-text {
+        font-size: 8vw;
+    }
+    .track-title {
+        font-size: 5vw;
+    }
+    .filters {
+        font-size: 4vw;
+    }
+    .section-header {
+        font-size: 5vw;
+    }
+    .button-text {
+        font-size: 4vw;
+    }
+    .skip-button-text {
+        font-size: 6vw;
+    }
+    .img1, .img2 {
+        height: 125vw;
+    }
 }
 
 body.homePage {
@@ -41,7 +124,11 @@ body {
     background-image: linear-gradient(#F4F3EE, #6C698D);
     height: 100vh;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 9vh;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(./Hamburger.png);
 }
 
 .navbar-custom {
@@ -59,10 +146,26 @@ body {
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
+#disabled-nav {
+    color: rgb(90, 90, 90);
+}
+
+.logo-image {
+    max-width: 10%; /* Set the maximum width to 100% of the parent container */
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+}
+
+
 .trending-text, .or {
     background: -webkit-linear-gradient(left, #FF6C72, #FFA56C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.title-scroll {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .text-primary {
@@ -72,11 +175,6 @@ body {
 }
 .dropdown-menu {
     background-color: #0C0A3E !important;
-}
-
-.homePage h1, h3{
-    text-align: center;
-    font-size: 50px;
 }
 
 .homePage h2 {
@@ -110,9 +208,9 @@ body {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #6C698D;
 }
 
-/* .form-check-input:active {
+.form-check-input:active {
     background-color: #6C698D;
-} */
+}
 
 .carousel-inner {
     padding: 1em;
@@ -135,6 +233,7 @@ body {
         margin-right: 0;
         flex: 0 0 33.333333%;
         display: block;
+        width: 1px;
 }
 .carousel-inner {
     display: flex;
@@ -159,4 +258,13 @@ body {
 .card {
     background-color: transparent;
     box-shadow: none;
+}
+
+.about-text {
+    font-size: 2vw;
+}
+@media (max-width: 767px) {
+    .about-text {
+        font-size: 4vw;
+    }
 }
